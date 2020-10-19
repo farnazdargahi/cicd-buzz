@@ -1,12 +1,12 @@
 from __future__ import print_function
 import random
 
-buzz = ('Farnaz Dargahi''A00123456''continuous testing', 'continuous integration',
+buzz = ('Farnaz Dargahi','A00123456','continuous testing', 'continuous integration',
     'continuous deployment' )
 adjectives = ('complete', 'modern', 'self-service', 'integrated', 'end-to-end')
 adverbs = ('remarkably', 'enormously', 'substantially', 'significantly',
     'seriously')
-verbs = ('accelerates', 'improves', 'enhances', 'revamps', 'boosts')
+iverbs = ('accelerates', 'improves', 'enhances', 'revamps', 'boosts')
 
 def sample(l, n = 1):
     result = random.sample(l, n)

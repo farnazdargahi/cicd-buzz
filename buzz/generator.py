@@ -6,7 +6,7 @@ buzz = ('Farnaz Dargahi','A00123456','continuous testing', 'continuous integrati
 adjectives = ('complete', 'modern', 'self-service', 'integrated', 'end-to-end')
 adverbs = ('remarkably', 'enormously', 'substantially', 'significantly',
     'seriously')
-iverbs = ('accelerates', 'improves', 'enhances', 'revamps', 'boosts')
+verbs = ('accelerates', 'improves', 'enhances', 'revamps', 'boosts')
 
 def sample(l, n = 1):
     result = random.sample(l, n)
